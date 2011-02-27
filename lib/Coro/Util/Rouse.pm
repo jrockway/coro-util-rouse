@@ -1,7 +1,6 @@
 package Coro::Util::Rouse;
 use strict;
 use warnings;
-use Context::Preserve;
 use Sub::Exporter -setup => {
     exports => [qw/rouse_cb rouse_wait/],
 };
